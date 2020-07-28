@@ -16,7 +16,7 @@
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  *
  */
 #pragma once
@@ -231,7 +231,7 @@
 
   #endif // HAS_SPI_LCD
 
-#elif ENABLED(TFT_LITTLE_VGL_UI)
+#elif ENABLED(TFT_LVGL_UI)
 
   #define FSMC_CS_PIN                       PD7   // NE4
   #define FSMC_RS_PIN                       PD11  // A0
